@@ -1,0 +1,123 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* styles */
+
+@font-face {
+    font-family: 'Oratorrrr';
+    src: url('../fonts/hinted-OratorStd.eot');
+    src: url('../fonts/hinted-OratorStd.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/hinted-OratorStd.woff') format('woff'),
+        url('../fonts/hinted-OratorStd.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Oratorrrr', Arial, Helvetica, sans-serif;
+    background:#3c3c3c;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+     -khtml-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none; 
+}
+.canvas {
+    width:1320px;
+    height:760px;
+    padding:0 100px;
+    margin:100px auto;
+}
+
+.row {
+    overflow:hidden;
+    margin-bottom:10px;
+}
+
+.row.last {
+    margin-bottom:0;
+}
+
+.person {
+    border-radius:50%;
+    width:100px;
+    height:75px;
+    padding-top:25px;
+    font-size:48px;
+    color:#000;
+    text-align:center;
+    float:left;
+    margin-right:10px;
+}
+
+.person.taken {
+    opacity:0.05;
+}
+
+.person.last {
+    margin-right:0;
+}
+
+.person.oso {
+    background-color:#bc0404;
+    color:#fff;
+}
+
+.person.donor30 {
+    background-color:#2cc7f5;
+}
+
+.person.donor25 {
+    background-color:#ffa50e;
+}
+
+.person.donor20 {
+    background-color:#eeff54;    
+}
